@@ -19,7 +19,7 @@ contract DaiToken {
         uint256 _value
     );
 
-    mapping(address => uint256) public balanceOf;
+    mapping(address => uint256) public balanceOf; //: give the key and have the value mapping is an object key value
     mapping(address => mapping(address => uint256)) public allowance;
 
     constructor()  {
